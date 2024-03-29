@@ -8,7 +8,9 @@ sidebar_position: 1
 
 ## Centered
 
-![](/img/logo.svg)
+<figure style={{textAlign: 'center'}}>
+  <img src={require('/img/docusaurus.png').default} />
+</figure>
 
 ## Resized
 
@@ -20,4 +22,24 @@ sidebar_position: 1
   <img src={require('/img/israel-pina.png').default} style={{width: '400px'}} />
 </figure>
 
-&#x20;
+### Resized+Centered+Http Link
+
+<figure style={{textAlign: 'center'}}>
+  <a href="https://news.ycombinator.com">
+    <img
+      src={require('/img/israel-pina.png').default}
+      style={{width: '300px'}}
+    />
+  </a>
+</figure>
+
+### Resized+Centered+relative link
+
+<figure style={{textAlign: 'center'}}>
+  <a href="./relative-images/relative-images">
+    <img
+      src={require('/img/israel-pina.png').default}
+      style={{width: '300px'}}
+    />
+  </a>
+</figure>
