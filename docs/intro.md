@@ -33,7 +33,7 @@ sidebar_position: 1
   </a>
 </figure>
 
-### Resized+Centered+relative link
+### Resized+Centered+Relative link
 
 <figure style={{textAlign: 'center'}}>
   <a href="./relative-images/examples">
@@ -43,3 +43,23 @@ sidebar_position: 1
     />
   </a>
 </figure>
+
+## Note on SVG
+
+:::note
+
+SVGs are always rendered as simple Markdown images, becauce the`  require().default  `syntax doesn't resolve svg's correctly. More work is needed to detect if image is `svg` and render it as inline `svg`.
+
+:::
+
+![](/img/logo.svg)
+
+## Images rendered as simple Markdown
+
+### Image with no attributes
+
+![](/img/israel-pina.png)
+
+### Image with link only
+
+[![](/img/israel-pina.png)](https://news.ycombinator.com)
