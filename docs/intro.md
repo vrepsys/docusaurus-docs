@@ -8,6 +8,8 @@ Deployed project here:
 
 [https://docusaurus-docs-sigma.vercel.app/docs/intro](https://docusaurus-docs-sigma.vercel.app/docs/intro)
 
+Example with relative images: [here](relative-images/examples.md)
+
 ## JSX Image
 
 ## Centered
