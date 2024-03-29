@@ -2,20 +2,24 @@
 sidebar_position: 1
 ---
 
-# Images x
+# Images
 
-## A simple image without attributes
+## MDX Image
 
-![](/img/docusaurus.png)
-
-## A centered image
+## Centered
 
 <figure style={{textAlign: 'center'}}>
-  <img src={require('/img/docusaurus.png').default} />
+  <img src={require('/img/logo.svg').default} />
 </figure>
 
-## Image image with width
+## Resized
 
-<img src={require('/img/docusaurus.png').default} style={{width: '300px'}} />
+<img src={require('/img/israel-pina.png').default} style={{width: '300px'}} />
 
-Relative image
+### Resized+Centered
+
+<figure style={{textAlign: 'center'}}>
+  <img src={require('/img/israel-pina.png').default} style={{width: '400px'}} />
+</figure>
+
+&#x20;
