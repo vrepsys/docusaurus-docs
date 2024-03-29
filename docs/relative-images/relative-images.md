@@ -6,7 +6,4 @@ sidebar_position: 1
 
 ## Relative image with width
 
-<img
-src={require('./img/docsVersionDropdown.png').default}
-style={{width: '300px'}}
-/>
+![](./img/docsVersionDropdown.png)

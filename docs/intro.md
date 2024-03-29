@@ -12,12 +12,10 @@ sidebar_position: 1
 
 ## Resized
 
-<img src={require('/img/israel-pina.png').default} style={{width: '300px'}} />
+![](/img/israel-pina.png)
 
 ### Resized+Centered
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/israel-pina.png').default} style={{width: '400px'}} />
-</figure>
+![](/img/israel-pina.png)
 
 &#x20;
