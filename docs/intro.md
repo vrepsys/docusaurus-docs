@@ -36,7 +36,7 @@ sidebar_position: 1
 ### Resized+Centered+relative link
 
 <figure style={{textAlign: 'center'}}>
-  <a href="./relative-images/relative-images">
+  <a href="./relative-images/examples">
     <img
       src={require('/img/israel-pina.png').default}
       style={{width: '300px'}}
