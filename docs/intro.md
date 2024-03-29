@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Images
+# Images x
 
 ## A simple image without attributes
 
