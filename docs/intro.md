@@ -14,6 +14,8 @@ sidebar_position: 1
   <img src={require('/img/docusaurus.png').default} />
 </figure>
 
-## Image with width
+## Image image with width
 
 <img src={require('/img/docusaurus.png').default} style={{width: '300px'}} />
+
+Relative image
