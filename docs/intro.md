@@ -8,9 +8,7 @@ sidebar_position: 1
 
 ## Centered
 
-<figure style={{textAlign: 'center'}}>
-  <img src={require('/img/logo.svg').default} />
-</figure>
+![](/img/logo.svg)
 
 ## Resized
 
