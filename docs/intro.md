@@ -4,7 +4,11 @@ sidebar_position: 1
 
 # Images
 
-## MDX Image
+Deployed project here:
+
+[https://docusaurus-docs-sigma.vercel.app/docs/intro](https://docusaurus-docs-sigma.vercel.app/docs/intro)
+
+## JSX Image
 
 ## Centered
 
