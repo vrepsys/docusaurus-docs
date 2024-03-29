@@ -10,10 +10,10 @@ sidebar_position: 1
 
 ## A centered image
 
-<figure style={{textAlign: center}}>
+<figure style={{textAlign: 'center'}}>
   <img src={require('/img/docusaurus.png').default} />
 </figure>
 
 ## Image with width
 
-<img src={require("/img/docusaurus.png").default} style={{width: 300px}} />
+<img src={require('/img/docusaurus.png').default} style={{width: '300px'}} />
