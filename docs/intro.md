@@ -8,6 +8,8 @@ sidebar_position: 1
 
 ## Centered
 
+[Examples](./relative-images/examples.mdx)
+
 <figure style={{textAlign: 'center'}}>
   <img src={require('/img/docusaurus.png').default} />
 </figure>
@@ -48,7 +50,7 @@ sidebar_position: 1
 
 :::note
 
-SVGs are always rendered as simple Markdown images, becauce the`  require().default  `syntax doesn't resolve svg's correctly. More work is needed to detect if image is `svg` and render it as inline `svg`.
+SVGs are always rendered as simple Markdown images, becauce the`require().default`syntax doesn't resolve svg's correctly. More work is needed to detect if image is `svg` and render it as inline `svg`.
 
 :::
 
